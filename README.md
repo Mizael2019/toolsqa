@@ -1,3 +1,3 @@
-# Estudos no site Tools QA
+# Estudos Tools QA
 
 - Repo utlizado para demostrar conhecimentos de automação de testes.
