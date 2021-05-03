@@ -1,0 +1,10 @@
+cypress/videos
+cypress/screenshots
+cypress.env.json
+
+# não subir as pastas .feature-express e allure
+.feature-express
+allure-results
+
+## Gulp/Grunt
+node_modules

@@ -1,0 +1,16 @@
+{
+  "name": "toolsqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:headless": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Mizael",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
