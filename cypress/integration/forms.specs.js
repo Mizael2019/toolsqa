@@ -9,7 +9,7 @@ describe('Acesso página principal e submete os campos', () => {
     it('Preencher os campos', () => {
         cy.get('.card-body').contains('Elements').click()
         cy.get('#item-0').click()
-        cy.get('#userName').as('name').type('Mizael Tobias Nazareno')
+        cy.get('#userName').as('name').type('Mizael Nazareno')
         cy.get('#userEmail').as('email').type('mtszareno@gmail.com')
         cy.get('#currentAddress').as('currentAddress').type('Rio de Janeiro / BR')
         cy.get('#permanentAddress').as('permanAddress').type('Cabo Frio / BR')

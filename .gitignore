@@ -2,9 +2,10 @@ cypress/videos
 cypress/screenshots
 cypress.env.json
 
-# não subir as pastas .feature-express e allure
+# não subir as pastas
 .feature-express
 allure-results
+.vscode
 
 ## Gulp/Grunt
 node_modules
