@@ -3,10 +3,10 @@ class login{
         return cy.get('#userName').type('Mizael')
     }
     password(){
-        return cy.get('#password').type('mizael')
+        return cy.get('#password').type('Beli@s1984')
     }
     signInButton(){
-         return cy.get('#login').contains('Login')
+         return cy.get('#login').click()
     }
 }
 export default login
