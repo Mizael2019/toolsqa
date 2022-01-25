@@ -1,16 +1,17 @@
 {
   "name": "toolsqa",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Repo para demonstrar conhecimentos em automação de testes.",
   "main": "index.js",
   "scripts": {
-    "cy:headless": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:headless": "cypress run"
   },
   "keywords": [],
-  "author": "Mizael",
+  "author": "Mizael Tobias",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.2.0"
+    "cypress": "^9.3.1",
+    "cypress-dark": "^1.8.0"
   }
 }

@@ -41,7 +41,7 @@ describe('Teste de envio de Formulário', () => {
         cy.get('#city > .css-yk16xz-control > .css-1hwfws3 > .css-1wa3eu0-placeholder').click()
         cy.get('#react-select-4-option-0').click()
         cy.get('#submit').click()
-        cy.get('#closeLargeModal').click()
+        cy.get('#closeLargeModal').click({force: true})
         cy.get('@firstname').should('be.empty')
         cy.get('@lastname').should('be.empty')
         cy.get('@email').should('be.empty')
